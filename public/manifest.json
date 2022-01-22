@@ -1,6 +1,7 @@
 {
   "name": "Budget-Tracker",
   "short_name": "Budget-Tracker",
+  "description": "This application allows users a fast and easy way to track their finances by allowing users to access that information on and offline.",
   "icons": [
     {
       "src": "icons/icon-512x512.png",

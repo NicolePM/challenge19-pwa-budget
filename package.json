@@ -1,9 +1,12 @@
 {
   "name": "pwa-budget-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "This application allows users a fast and easy way to track their finances by allowing users to access that information on and offline.",
   "main": "server.js",
   "scripts": {
+    "webpack": "webpack --watch",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "lite-server": "lite-server",
@@ -14,7 +17,7 @@
     "url": "git+https://github.com/priyaravi23/pwa-budget-tracker.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nicole Mitchell",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/priyaravi23/pwa-budget-tracker/issues"
@@ -23,12 +26,20 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
+    "image-webpack-loader": "^8.1.0",
+    "jquery": "^3.6.0",
     "mongoose": "^5.10.5",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "popper.js": "^1.16.0",
+    "save": "^2.4.0"
   },
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "webpack": "^5.67.0",
-    "webpack-cli": "^4.9.1"
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3",
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }
