@@ -21,3 +21,4 @@ Navigate to the website in the link above.  User can download a copy of the appl
 
 ## Contribution
 Made with ❤️ by Nicole Mitchell
+https://github.com/NicolePM
